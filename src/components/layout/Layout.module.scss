@@ -1,0 +1,28 @@
+@import 'assets/keyframes.scss';
+
+.layout {
+  @apply min-h-[100vh] px-2;
+  main {
+    @apply sm:p-2 xl:max-w-[85%] text-[#ffff] p-5 rounded-[16px] w-full bg-[#0b0b0bb7] backdrop-blur-[15px];
+    animation: neon 2s ease-in-out infinite alternate;
+    h1 {
+      @apply sm:text-[20px] text-[35px] xl:text-[25px];
+    }
+    h2 {
+      @apply sm:text-[20px] xl:text-[25px];
+    }
+    p {
+      @apply sm:text-[15px] xl:text-[20px];
+    }
+    a {
+      @apply sm:text-[20px];
+    }
+    ul {
+      @apply sm:text-[20px];
+    }
+  }
+}
+
+.container {
+  @apply flex gap-2 items-center max-w-[1200px] m-auto min-h-[100vh] lg:flex-col;
+}

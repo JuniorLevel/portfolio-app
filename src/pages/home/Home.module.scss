@@ -1,0 +1,36 @@
+@import 'assets/keyframes.scss';
+
+.home {
+  @apply lg:gap-2 gap-4 xl:flex-col flex items-center mb-4;
+  h1 {
+    @apply text-center;
+    span {
+      @apply text-aqua-color-text;
+      animation: pulse 2s infinite;
+    }
+  }
+}
+
+.homeImage {
+  @apply rounded-[50%] bg-[#ffff] max-h-[320px] max-w-[320px];
+  img {
+    @apply w-full h-full object-cover;
+  }
+}
+
+.homeBlockInfo {
+  @apply sm:flex-col sm:gap-4 flex justify-between items-center;
+}
+
+.homeText {
+  @apply sm:text-center text-[35px];
+}
+
+@media screen and (min-width: 639px) {
+  .home {
+    h1 {
+      @apply overflow-hidden whitespace-nowrap mx-auto tracking-[0.1em];
+      animation: typing 3s steps(40, end);
+    }
+  }
+}

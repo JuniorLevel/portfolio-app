@@ -1,0 +1,16 @@
+@import '/src/assets/keyframes.scss';
+
+.navigationSidebar {
+  @apply sm:bg-[transparent] p-5 rounded-[16px] bg-[#0b0b0bb7] backdrop-blur-[20px];
+  ul {
+    @apply lg:flex gap-2;
+  }
+}
+
+.icon {
+  @apply sm:text-[30px] text-[50px] text-aqua-color-text;
+  &:hover {
+    @apply text-hover-color-text;
+    animation: pulse 2s ease-in-out infinite alternate;
+  }
+}

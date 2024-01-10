@@ -1,0 +1,34 @@
+// Анимация border
+@keyframes neon {
+  from {
+    box-shadow: 0 0 5px rgba(216, 4, 239, 0.7), 0 0 15px rgba(216, 4, 239, 0.7),
+      0 0 5px rgba(0, 255, 255, 0.3), 0 0 15px rgba(0, 255, 255, 0.2);
+  }
+  to {
+    box-shadow: 0 0 5px rgba(0, 255, 255, 1), 0 0 15px rgba(0, 255, 255, 0.7),
+      0 0 5px rgba(0, 255, 255, 0.5), 0 0 15px rgba(0, 255, 255, 0.3);
+  }
+}
+
+// Анимация имени
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+// Анимация печати
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}

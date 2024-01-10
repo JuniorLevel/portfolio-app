@@ -1,0 +1,43 @@
+@import 'slick-carousel/slick/slick.css';
+@import 'slick-carousel/slick/slick-theme.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-image: url('/images/main-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.slick-dots li button::before {
+  @apply text-[20px] text-aqua-color-text;
+}
+
+.slick-dots li.slick-active button:before {
+  @apply text-[20px] text-[red];
+}
+
+.slick-slider button.slick-arrow::before {
+  @apply hidden;
+}
+
+.slick-slide {
+  @apply opacity-0;
+  transition: opacity 1s ease;
+}
+.slick-slide.slick-active {
+  @apply opacity-100;
+}

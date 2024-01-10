@@ -1,0 +1,16 @@
+.stack {
+  h1 {
+    @apply mb-4;
+  }
+  p {
+    @apply text-[25px];
+  }
+
+  ul {
+    li {
+      &:before {
+        content: '✰ ';
+      }
+    }
+  }
+}

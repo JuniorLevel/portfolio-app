@@ -1,0 +1,11 @@
+.contacts {
+  @apply flex gap-4;
+}
+
+.icon {
+  @apply sm:text-[30px] text-[50px] text-aqua-color-text;
+  &:hover {
+    @apply text-hover-color-text;
+    animation: pulse 2s ease-in-out infinite alternate;
+  }
+}
