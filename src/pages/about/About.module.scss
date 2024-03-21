@@ -4,6 +4,6 @@
     @apply mb-4;
   }
   p {
-    @apply sm:text-center mb-2 last:mb-0 first-letter:pl-2;
+    @apply sm:text-center sm:text-[14px] mb-2 last:mb-0 first-letter:pl-2 text-[23px];
   }
 }

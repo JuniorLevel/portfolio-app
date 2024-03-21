@@ -16,10 +16,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 body {
-  background-image: url('/images/main-bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #00366a 0,
+    #00356b 6.25%,
+    #00336b 12.5%,
+    #00306a 18.75%,
+    #032d69 25%,
+    #202a66 31.25%,
+    #2f2762 37.5%,
+    #3b235e 43.75%,
+    #441f59 50%,
+    #4c1b53 56.25%,
+    #52164d 62.5%,
+    #581247 68.75%,
+    #5c0d40 75%,
+    #5f0a39 81.25%,
+    #610732 87.5%,
+    #62072b 93.75%,
+    #620825 100%
+  );
 }
 
 .slick-dots li button::before {

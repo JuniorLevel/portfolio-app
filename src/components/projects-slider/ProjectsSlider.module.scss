@@ -3,7 +3,7 @@
 }
 
 .sliderImage {
-  @apply lg:max-w-[100%] max-w-[340px] max-h-[340px] lg:overflow-y-hidden;
+  @apply lg:max-w-[100%] max-w-[340px] max-h-[340px] lg:max-h-[300px] lg:overflow-y-hidden;
   img {
     @apply w-full h-full object-cover;
   }
