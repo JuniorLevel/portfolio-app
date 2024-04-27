@@ -3,7 +3,7 @@
 .layout {
   @apply h-[100vh] px-2;
   main {
-    @apply sm:p-2 xl:max-w-[85%] text-[#ffff] p-5 rounded-[16px] w-full bg-[#0b0b0bb7] backdrop-blur-[15px] lg:min-h-[730px] min-h-[550px] flex flex-col justify-center;
+    @apply sm:p-2 xl:max-w-[85%] text-[#ffff] p-5 rounded-[16px] w-full bg-[#0b0b0bb7] backdrop-blur-[15px] lg:min-h-[730px] min-h-[550px] flex flex-col justify-center mb-4;
     animation: neon 2s ease-in-out infinite alternate;
     h1 {
       @apply sm:text-[20px] text-[35px] xl:text-[25px];

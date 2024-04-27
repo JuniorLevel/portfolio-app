@@ -3,7 +3,7 @@
 }
 
 .sliderImage {
-  @apply lg:max-w-[100%] max-w-[340px] max-h-[340px] lg:max-h-[300px] lg:overflow-y-hidden;
+  @apply lg:max-w-[100%] lg:max-h-[550px] lg:overflow-y-hidden max-w-[340px] max-h-[340px];
   img {
     @apply w-full h-full object-cover;
   }
@@ -17,7 +17,10 @@
   p {
     @apply text-[23px] mb-4;
   }
-
+  &__stack {
+    @apply text-[green];
+    font-size: 20px !important;
+  }
   a {
     @apply text-[20px];
     &:hover {

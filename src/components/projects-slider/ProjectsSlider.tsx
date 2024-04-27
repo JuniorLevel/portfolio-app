@@ -23,6 +23,7 @@ const ProjectsSlider: FC = () => {
             <div className={styles.sliderBlockInfo}>
               <h2>{item.name}</h2>
               <p>{item.description}</p>
+              <p className={styles.sliderBlockInfo__stack}>{item.stack}</p>
               <a href={item.url} target="_blank">
                 Подробности
               </a>

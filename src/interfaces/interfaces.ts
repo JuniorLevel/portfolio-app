@@ -7,6 +7,7 @@ interface IProject {
   id: number;
   name: string;
   description: string;
+  stack: string;
   picture: string;
   url: string;
 }
