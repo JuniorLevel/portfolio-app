@@ -19,14 +19,6 @@ export const data: IProject[] = [
   },
   {
     id: 2,
-    name: 'Landing Prime Car',
-    description: 'Одностраничный сайт по продаже машин',
-    stack: 'HTML (BEM naming) / CSS / JavaScript',
-    picture: '/images/projects/prime-car.png',
-    url: 'https://boisterous-cranachan-8377fa.netlify.app/',
-  },
-  {
-    id: 3,
     name: 'Qpick Store App E-commerce',
     description: 'Интернет магазин на основе API Platzi Fake Store',
     stack: 'ReactJS + TypeScript + Redux Toolkit',
@@ -34,11 +26,11 @@ export const data: IProject[] = [
     url: 'https://zesty-sprite-912bbd.netlify.app/',
   },
   {
-    id: 4,
-    name: 'Hacker News App',
-    description: 'Новостное приложение на основе API Hacker News App',
-    stack: 'ReactJS + Redux',
-    picture: '/images/projects/hacker-news.png',
-    url: 'https://magenta-pastelito-59edd7.netlify.app/',
+    id: 3,
+    name: 'Landing Prime Car',
+    description: 'Одностраничный сайт по продаже машин',
+    stack: 'HTML (BEM naming) / CSS / JavaScript',
+    picture: '/images/projects/prime-car.png',
+    url: 'https://boisterous-cranachan-8377fa.netlify.app/',
   },
 ];
