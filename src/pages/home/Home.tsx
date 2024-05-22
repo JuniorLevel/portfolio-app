@@ -11,11 +11,11 @@ const Home: FC = () => {
             <img src="/images/profile.png" alt="profile-img" />
           </div>
           <h1>
-            Привет, меня зовут <span>Дмитрий</span>
+            Приветствую, меня зовут <span>Дмитрий</span>
           </h1>
         </div>
         <div className={styles.homeBlockInfo}>
-          <p className={styles.homeText}>Я Junior Frontend разработчик</p>
+          <p className={styles.homeText}>Я Frontend разработчик 🧑‍💻</p>
           <Contacts />
         </div>
       </div>
